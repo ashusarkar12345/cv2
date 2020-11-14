@@ -10,5 +10,4 @@ matplotlib
 simpy.io
 pybase64
 opencv-python
-dlib
 cmake
