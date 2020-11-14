@@ -3,7 +3,7 @@ numpy
 pandas  
 db-sqlite3
 face-recognition
-os-sys
+os-win
 Pillow==2.2.1
 DateTime 
 matplotlib 
