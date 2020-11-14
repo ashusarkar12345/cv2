@@ -1,0 +1,14 @@
+streamlit
+numpy 
+pandas  
+db-sqlite3
+face-recognition
+os-sys
+Pillow==2.2.1
+DateTime 
+matplotlib 
+simpy.io
+pybase64
+opencv-python
+dlib
+cmake
