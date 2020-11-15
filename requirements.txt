@@ -14,5 +14,6 @@ DateTime
 matplotlib 
 simpy.io
 pybase64
+opencv-contrib-python
 
 
