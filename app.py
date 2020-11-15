@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np 
 import pandas as pd
-import cv2 
+from opencv import cv2 
 import os 
 from PIL import Image
 import sqlite3
