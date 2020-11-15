@@ -41,7 +41,7 @@ def clic_pic(f_name,l_name):
             # SPACE pressed
             img_name = "opencv_frame_{}".format(img_counter)
             cropped=frame[25:,:]
-            cv2.imwrite(r"C:\Users\sarkar\Desktop\opencv2\attendance project\attendance members\{}_{}.png".format(f_name,l_name),cropped)
+            cv2.imwrite(r"\attendance members\{}_{}.png".format(f_name,l_name),cropped)
             print("{} written!".format(img_name))
             img_counter += 1
 
@@ -87,7 +87,7 @@ def Mark_attendance():
     return cropped   
 #---------------------------------------------------------------------------------------------------------------------------------------------
 def att_marker(ima):
-    path=r"C:\Users\sarkar\Desktop\opencv2\attendance project\attendance members"
+    path=r"\attendance members"
     files=os.listdir(path)
     images=[]
     encodes=[]
@@ -223,7 +223,7 @@ elif choice == "SignUp":
         st.markdown('''#### Do you want to check your final picture ?''')
         
         if st.button("Yes"):
-            image = Image.open(r"C:\Users\sarkar\Desktop\opencv2\attendance project\attendance members\{}_{}.png".format(f_name,l_name))
+            image = Image.open(r"\attendance members\{}_{}.png".format(f_name,l_name))
             st.image(image, caption="{}_{}.png".format(f_name,l_name))
             st.success("You have successfully created an account.Go to the Login Menu to login")
         
